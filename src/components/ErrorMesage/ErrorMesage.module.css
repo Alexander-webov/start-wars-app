@@ -1,0 +1,13 @@
+.error__message {
+    width: 600px;
+    margin: 100px auto auto;
+    line-height: 1.7;
+    text-align: center;
+    text-shadow: 0 0 2px #ff0;
+    color: #ff0;
+    -webkit-text-stroke-color: #ff0;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+
+}
