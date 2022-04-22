@@ -1,0 +1,37 @@
+.button {
+    border: none;
+    padding: 8px 18px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 0 25px;
+    font-size: 18px;
+}
+
+.button:disabled,
+.button:disabled:hover {
+    color: #999;
+    border: 1px solid #999;
+    background-color: rgba(255, 255, 255, 0.11);
+    cursor: auto;
+}
+
+.dark {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.dark:hover {
+    background-color: rgba(255, 255, 255, 0.51);
+}
+
+
+.light {
+    border: 1px solid rgb(5, 4, 4);
+    color: rgb(5, 4, 4);
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+.light:hover {
+    background-color: rgba(255, 255, 255, 0.21);
+}

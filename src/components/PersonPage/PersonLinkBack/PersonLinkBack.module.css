@@ -1,0 +1,18 @@
+.goBack {
+    padding: 15px;
+    font-size: 22px;
+    color: burlywood;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.goBack span {
+    font-size: 32px;
+    padding-right: 5px;
+}
+
+.goBack:hover {
+    color: rgb(223, 212, 198);
+}

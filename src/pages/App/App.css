@@ -55,12 +55,7 @@ body {
     margin: 0px auto;
 }
 
-.header {
-    max-width: 1140px;
-    margin: 50px auto;
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .header__text {
     line-height: 1.7;
@@ -68,20 +63,4 @@ body {
     text-shadow: 0 0 2px var(--color-black);
     color: var(--theme-default-header);
     transition: color var(--transition);
-}
-
-.header a {
-    display: block;
-    margin: 0 10px;
-    padding: 7px 10px;
-    min-width: 70px;
-    border: 2px solid transparent;
-    border-radius: var(--border-radius-small);
-    color: var(--color-white);
-    text-align: center;
-    font-family: var(--font-family-main);
-    text-decoration: none;
-    font-weight: var(--font-bold);
-    text-shadow: var(--text-shadow-yellow);
-    transition: var(--transition);
 }

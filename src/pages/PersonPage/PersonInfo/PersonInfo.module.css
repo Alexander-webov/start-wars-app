@@ -1,0 +1,19 @@
+/* color: darkslategrey;*/
+
+
+.personeInfo {
+    color: rgb(130, 145, 145);
+    font-size: 18px;
+
+}
+
+.personeInfo li {
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+.personeInfo span {
+    padding-left: 10px;
+
+    color: rgb(177, 192, 192);
+}

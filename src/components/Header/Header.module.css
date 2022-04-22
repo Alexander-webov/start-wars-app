@@ -1,0 +1,32 @@
+.header {
+    margin: 50px auto;
+
+}
+
+.header ul {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+    display: block;
+    margin: 0 10px;
+    padding: 7px 10px;
+    min-width: 70px;
+    border: 2px solid transparent;
+    border-radius: var(--border-radius-small);
+    color: var(--color-white);
+    text-align: center;
+    font-family: var(--font-family-main);
+    text-decoration: none;
+    font-weight: var(--font-bold);
+    text-shadow: var(--text-shadow-yellow);
+    transition: var(--transition);
+}
+
+.header :global(a.active) {
+    border: 2px solid var(--color-violet);
+    color: var(--color-violet);
+    text-shadow: none;
+}
