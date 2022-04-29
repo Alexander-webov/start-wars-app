@@ -4,6 +4,7 @@ import styles from './PersonInfo.module.css'
 const Personinfo = ({ personeInfo }) => {
     return (
         <div className={styles.personeInfo}>
+            <h3>Информация</h3>
             <ul>
                 {personeInfo.map(el => (
                     el.data && (

@@ -9,6 +9,8 @@ import Notfoundpage from "../NotFoundPage/NotFoundPage";
 import Header from "../../components/Header/Header";
 
 import './App.css';
+import Favoritepage from "../FavoritePage/FavoritePage";
+
 
 
 
@@ -22,6 +24,7 @@ const App = () => {
         <Route path="/people" exact element={<Peoplepage />} />
         <Route path="/people/:id" exact element={<PersonPage />} />
         <Route path="/not-found" exact element={<Notfoundpage />} />
+        <Route path="/favorite" exact element={<Favoritepage />} />
         <Route path="*" element={<Notfoundpage />} />
 
       </Routes>

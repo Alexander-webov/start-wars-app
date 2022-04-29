@@ -5,15 +5,19 @@
 }
 
 .personPage h1 {
+    display: inline-block;
     font-size: 32px;
     line-height: 1.4;
     color: darkslategrey;
     font-weight: normal;
-    margin: 5px 0 25px;
+    margin: 5px 0 25px 25px;
+    padding: 0 10px;
     border-bottom: 3px solid darkslategrey;
 
 }
 
 .personPage__info {
     margin-left: 35px;
+    display: flex;
+
 }

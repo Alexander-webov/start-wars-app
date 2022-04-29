@@ -1,3 +1,16 @@
+.person__foto_wrapper {
+    position: relative;
+}
+
 .person__foto img {
     width: 280px;
+}
+
+.person__favorite {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 56px;
+    height: 56px;
+    cursor: pointer;
 }

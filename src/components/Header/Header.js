@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Favoritelink from '../FavoriteLink/FavoriteLink';
 
 import styles from './Header.module.css'
 
@@ -13,7 +14,10 @@ const Header = () => {
                 <li><NavLink to="/search" end>Поиск</NavLink></li>
                 <li><NavLink to="/not-found" end>Не найдено</NavLink></li>
                 <li><NavLink to="/error" end>Error</NavLink></li>
+
             </ul>
+
+            <Favoritelink />
         </header>
     );
 }
