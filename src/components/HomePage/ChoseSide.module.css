@@ -1,0 +1,20 @@
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.buttons button {
+    width: 250px;
+    height: 450px;
+    object-fit: cover;
+    margin-right: 35px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons button img {
+    display: block;
+    height: inherit;
+    width: inherit;
+}
