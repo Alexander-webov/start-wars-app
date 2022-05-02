@@ -1,0 +1,22 @@
+.searchInfo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: aliceblue;
+
+}
+
+.searchInfo li {
+    max-width: 150px;
+    margin: 25px;
+}
+
+.searchInfo li a {
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.searchInfo li img {
+    max-width: 150px;
+}

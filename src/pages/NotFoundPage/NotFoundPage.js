@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
+import Errormesage from '../../components/ErrorMesage/ErrorMesage';
 
 
 const Notfoundpage = () => {
@@ -8,6 +9,7 @@ const Notfoundpage = () => {
     return (
         <div>
             <h1>Извините страница {location.pathname} не найдена :( </h1>
+            <Errormesage />
         </div>
     );
 }
